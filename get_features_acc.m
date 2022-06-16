@@ -3,10 +3,10 @@
 % in both time and frequency domain
 
 clear all
-%Bearing Dimensions
+%Bearing Dimensions for XJTU bearing dataset
 d=7.92; %Ball diameter in mm
 D=34.55;%Mean bearing diameter
-nballs=8;
+nballs=8;%Number of ball bearings
 
 %operating/ measurement conditions
 sf=25.6e3; %sampling frequency
