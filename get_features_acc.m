@@ -177,7 +177,7 @@ for mybid=1:15
     end
     mybid
     
-    save("PaperFeaturesAcc_B_"+string(mybid)+".mat",'Fnet','FTh','FFh','FTv','FFv')
+    save("PaperFeaturesAcc_B_"+string(mybid)+".mat",'Fnet','FTh','FFh','FTv','FFv') %This save file is input in other scripts. 
     clear P1 P2 Y FF myfft df Fnet FF FFv FTh FFh FTv FFv FFwv FFwh
 end
 
