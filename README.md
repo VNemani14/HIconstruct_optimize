@@ -20,9 +20,9 @@ get_mod_monotonicity.m: This is a function that calculates the modified definiti
 
 lhsdesignbnd.m: This function generates a NxP latin hypercube sample with bounds for other scripts. 
 
-paper_evaluateLIU_1.m
+paper_evaluateLIU_1.m: This method is based on the paper "Integration of Data Fusion Methodology and Degradation Modeling Process to Improve Prognostics" by Kaibo Liu. 
 
-paper_evaluateLIU_2_LHS.m
+paper_evaluateLIU_2_LHS.m This method is also based on the paper "Integration of Data Fusion Methodology and Degradation Modeling Process to Improve Prognostics by Kaibo Liu. 
 
 paper_evaluateYGLEE1.m
 
