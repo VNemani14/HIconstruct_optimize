@@ -20,18 +20,17 @@ get_mod_monotonicity.m: This is a function that calculates the modified definiti
 
 lhsdesignbnd.m: This function generates a NxP latin hypercube sample with bounds for other scripts. 
 
-paper_evaluateLIU_1.m: This method is based on the paper "Integration of Data Fusion Methodology and Degradation Modeling Process to Improve Prognostics" by Kaibo Liu. 
+paper_evaluateLIU_1.m: This method (Liu1) is based on the paper "Integration of Data Fusion Methodology and Degradation Modeling Process to Improve Prognostics" by Kaibo Liu. 
 
-paper_evaluateLIU_2_LHS.m This method is also based on the paper "Integration of Data Fusion Methodology and Degradation Modeling Process to Improve Prognostics by Kaibo Liu. 
+paper_evaluateLIU_2_LHS.m This method (Liu2) is also based on the paper "Integration of Data Fusion Methodology and Degradation Modeling Process to Improve Prognostics by Kaibo Liu. 
 
-paper_evaluateYGLEE1.m
+paper_evaluateYGLEE1.m: This method (Guo1) is based on the paper "A recurrent neural network based health indicator for remaining useful life prediction of bearings" by L. Guo et al. 
 
-paper_evaluateYGLEE2.m
+paper_evaluateYGLEE2.m: This method (Guo2) is based on the paper "A recurrent neural network based health indicator for remaining useful life prediction of bearings" by L. Guo et al. 
 
-paper_evaluate_CHEN_lhs.m
+paper_evaluate_CHEN_lhs.m: This method (Chen) is based on the paper "A Health Index Construction Framework for Prognostics Based on Feature Fusion and Constrained Optimization".
 
-paper_evaluate_RMS.m
-
+paper_evaluate_RMS.m: This uses a root mean square method to calculate the health index. 
 
 
 
