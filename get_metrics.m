@@ -32,6 +32,6 @@ function [mypear_corr, mysp_corr, old_mon, new_mon, myrob] = get_metrics(myf_org
     end
 
     % New SNR defition based on: Liu, Kaibo - DOI: 10.1109/TASE.2015.2446752
-    
+    % Optimize the Signal Quality of the Composite Health Index Via Data Fusion for Degradation Modeling and Prognostic Analysis
 
 end
