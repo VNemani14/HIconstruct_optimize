@@ -1,5 +1,5 @@
 function X = lhsdesignbnd(n,p,lb,ub,isexp,varargin)
-%LHSDESIGNBND Generate am NxP latin hypercube sample with bounds
+%LHSDESIGNBND Generate a NxP latin hypercube sample with bounds
 %   constraints and optional exponential distribution.
 %   X=LHSDESIGNBND(N,P,LB,UB,ISEXP) generates a latin hypercube sample X
 %   containing N values on each of P variables.  For each column, if ISEXP
