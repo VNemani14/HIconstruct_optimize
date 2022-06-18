@@ -1,7 +1,6 @@
 # Optimized Health Index Construction
 
 This repository contains parts of code for the publication "
-Structural and Multidisciplinary Optimization
 Health Index Construction with Feature Fusion Optimization for Predictive Maintenance
 of Physical Systems" by Venkat Nemani, Austin Bray, Adam Thelen, Chao Hu, Steve Daining submitted to **Structural and Multidiciplinary Optimization** (SMO) special issue on _Advanced Optimization Enabling Digital Twin Technology_. 
 
