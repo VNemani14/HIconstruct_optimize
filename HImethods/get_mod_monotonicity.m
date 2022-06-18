@@ -1,3 +1,5 @@
+% proposed modified monotonicity
+
 function [mymon]=get_mod_monotonicity(myf, mysigma)
 % this function gives the modified monotonicity while accounting for noise
 % in measurement
