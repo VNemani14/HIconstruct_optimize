@@ -26,39 +26,25 @@ Summary of the various methods
 
 ## Code Description
 ### Bearing_Features_Extract:
-`get_features_acc_Guo.m` - To extract features for the Guo1 model  
-`get_features_acc.m` - To extract features in the accleration domain  
-`get_features_vel.m` - To extract features in the velocity domain  
-`concatenate_features.m` - To concatenate features in acceleration and velocity domain. This gives a final feature list. 
+- `get_features_acc_Guo.m` - To extract features for the Guo1 model  
+- `get_features_acc.m` - To extract features in the accleration domain  
+- `get_features_vel.m` - To extract features in the velocity domain  
+- `concatenate_features.m` - To concatenate features in acceleration and velocity domain. This gives a final feature list.  
 
-
-concatenate_features.m: Concatenates acc features extracted in get_features code. Creates "PaperFeaturesFinal..." output. 
-
-get_features_acc.m: Extracts features from raw vibration data and outputs into .mat file. 
-
-get_features_acc_LGUO.m: Extracts features from raw vibration data required for XXX method.  
-
-get_features_vel.m: Extracts velocity features from raw vibration data. 
-
-get_metrics.m: This is a function used by other scripts to calculate monotonicity, pearson correlation and spearman corrrelation.
-
-get_mod_monotonicity.m: This is a function that calculates the modified definition of monotonicity within other scripts. 
-
-lhsdesignbnd.m: This function generates a NxP latin hypercube sample with bounds for other scripts. 
-
-paper_evaluateLIU_1.m: This method (Liu1) is based on the paper "Integration of Data Fusion Methodology and Degradation Modeling Process to Improve Prognostics" by Kaibo Liu. 
-
-paper_evaluateLIU_2_LHS.m This method (Liu2) is also based on the paper "Integration of Data Fusion Methodology and Degradation Modeling Process to Improve Prognostics by Kaibo Liu. 
-
-paper_evaluateYGLEE1.m: This method (Guo1) is based on the paper "A recurrent neural network based health indicator for remaining useful life prediction of bearings" by L. Guo et al. 
-
-paper_evaluateYGLEE2.m: This method (Guo2) is based on the paper "A recurrent neural network based health indicator for remaining useful life prediction of bearings" by L. Guo et al. 
-
-paper_evaluate_CHEN_lhs.m: This method (Chen) is based on the paper "A Health Index Construction Framework for Prognostics Based on Feature Fusion and Constrained Optimization".
-
-paper_evaluate_RMS.m: This uses a root mean square method to calculate the health index. 
+### Bearing_Features_Extract:
+- `paper_HI_construct_Guo1.m` - Construct HI using Guo1 model and Guo-proposed features
+- `paper_HI_construct_Guo2.m` - Construct HI using Guo2 model on final feature set
+- `paper_HI_construct_Liu1.m` - Construct HI using Liu1 model on final feature set (multi objective)
+- `paper_HI_construct_Liu2.m` - Construct HI using Liu2 model on final feature set (single objective)
+- `paper_HI_construct_Chen.m` - Construct HI using Chen model on final feature set (single objective)
+#### Function files
+- `get_metrics.m` - to obtain pearson correlation, proposed monotonicity etc. 
+- `get_metaprobability.m` - to obtain the proposed meta probability metric
+- `get_snr.m` - to obtain the modified signal-to-noise ratio as proposed in Liu2 model
+- `get_modified_monotonicity.m` - to obtain the proposed modified monotonicity
+- `get_liumetrics.m` - to get the objectives for Liu1 model
+- `lhsdesignbnd.m` - to generate LHS samples. [source.](https://github.com/rikblok/matlab-lhsdesigncon) 
 
 
 
-
-NOTE: Please contact Prof. Chao Hu, chaohu@iastate.edu or huchaostu@gmail.com, for any questions.
+NOTE: Please contact Chao Hu (huchaostu@gmail.com) for any queries.
