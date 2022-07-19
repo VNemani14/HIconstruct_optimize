@@ -9,7 +9,7 @@ We use two publicly available datasets
 [Biao Wang et al. “A Hybrid Prognostics Approach for Estimating Remaining Useful Life of Rolling Element Bearings”, IEEE Transactions on Reliability](https://ieeexplore.ieee.org/document/8576668)
 - IEEE PHM 2012 bearing run-to-failure dataset [Nectoux, Patrick, et al. "PRONOSTIA: An experimental platform for bearings accelerated degradation tests." IEEE International Conference on Prognostics and Health Management, PHM'12.. IEEE Catalog Number: CPF12PHM-CDR, 2012.](https://hal.archives-ouvertes.fr/hal-00719503/)
 
-The XJTU data repositories can be downloaded at: https://data.mendeley.com//datasets/mpn45f4gxc/1 and placed in the `Raw_Data` Folder
+The XJTU data repositories can be downloaded at: https://data.mendeley.com/datasets/mpn45f4gxc/1 and placed in the `Raw_Data` Folder
 - `originaldata` contains the vibration data in .mat files. These are obtained from the original XJTU-SY Dataset with csv files: https://github.com/WangBiaoXJTU/xjtu-sy-bearing-datasets
 - `processeddata` contains vibration data processed into velocity domain
 
@@ -46,4 +46,4 @@ Summary of the various methods
 
 
 
-NOTE: Please contact Chao Hu (huchaostu@gmail.com) for any queries.
+NOTE: Please contact Venkat Nemani (nemani1401@gmail.com) or Chao Hu (huchaostu@gmail.com) for any queries.
