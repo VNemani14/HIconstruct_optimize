@@ -42,7 +42,7 @@ Summary of the various methods
 - `get_snr.m` - To obtain the modified signal-to-noise ratio as proposed in Liu2 model
 - `get_modified_monotonicity.m` - To obtain the proposed modified monotonicity
 - `get_liumetrics.m` - To get the objectives for Liu1 model
-- `lhsdesignbnd.m` - To generate LHS samples ([source.](https://github.com/rikblok/matlab-lhsdesigncon)) 
+- `lhsdesignbnd.m` - To generate LHS samples ([source](https://github.com/rikblok/matlab-lhsdesigncon)) 
 
 
 
