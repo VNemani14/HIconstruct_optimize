@@ -25,24 +25,24 @@ Summary of the various methods
 
 ## Code Description
 ### Bearing_Features_Extract:
-- `get_features_acc_Guo.m` - To extract features for the Guo1 model  
-- `get_features_acc.m` - To extract features in the accleration domain  
-- `get_features_vel.m` - To extract features in the velocity domain  
-- `concatenate_features.m` - To concatenate features in acceleration and velocity domain. This gives a final feature list.  
+- `get_features_acc_Guo.m` - To extract features for Guo1 model  
+- `get_features_acc.m` - To extract features in accleration domain  
+- `get_features_vel.m` - To extract features in velocity domain  
+- `concatenate_features.m` - To concatenate features in acceleration and velocity domains. This gives a final feature list.  
 
 ### Bearing_Features_Extract:
-- `paper_HI_construct_Guo1.m` - Construct HI using Guo1 model and Guo-proposed features
-- `paper_HI_construct_Guo2.m` - Construct HI using Guo2 model on final feature set
-- `paper_HI_construct_Liu1.m` - Construct HI using Liu1 model on final feature set (multi objective)
-- `paper_HI_construct_Liu2.m` - Construct HI using Liu2 model on final feature set (single objective)
-- `paper_HI_construct_Chen.m` - Construct HI using Chen model on final feature set (single objective)
+- `paper_HI_construct_Guo1.m` - To construct HI using Guo1 model and Guo-proposed features
+- `paper_HI_construct_Guo2.m` - To construct HI using Guo2 model on final feature set
+- `paper_HI_construct_Liu1.m` - To construct HI using Liu1 model on final feature set (multiple objectives)
+- `paper_HI_construct_Liu2.m` - To construct HI using Liu2 model on final feature set (single objective)
+- `paper_HI_construct_Chen.m` - To construct HI using Chen model on final feature set (single objective)
 #### Function files
-- `get_metrics.m` - to obtain pearson correlation, proposed monotonicity etc. 
-- `get_metaprobability.m` - to obtain the proposed meta probability metric
-- `get_snr.m` - to obtain the modified signal-to-noise ratio as proposed in Liu2 model
-- `get_modified_monotonicity.m` - to obtain the proposed modified monotonicity
-- `get_liumetrics.m` - to get the objectives for Liu1 model
-- `lhsdesignbnd.m` - to generate LHS samples. [source.](https://github.com/rikblok/matlab-lhsdesigncon) 
+- `get_metrics.m` - To obtain pearson correlation, proposed monotonicity etc. 
+- `get_metaprobability.m` - To obtain the proposed meta probability metric
+- `get_snr.m` - To obtain the modified signal-to-noise ratio as proposed in Liu2 model
+- `get_modified_monotonicity.m` - To obtain the proposed modified monotonicity
+- `get_liumetrics.m` - To get the objectives for Liu1 model
+- `lhsdesignbnd.m` - To generate LHS samples ([source.](https://github.com/rikblok/matlab-lhsdesigncon)) 
 
 
 
