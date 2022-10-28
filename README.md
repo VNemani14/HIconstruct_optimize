@@ -2,7 +2,7 @@
 
 This repository contains parts of code for the publication "
 Health Index Construction with Feature Fusion Optimization for Predictive Maintenance
-of Physical Systems" by _Venkat Nemani, Austin Bray, Adam Thelen, Chao Hu, Steve Daining_ submitted to **Structural and Multidiciplinary Optimization** (SMO) special issue on _Advanced Optimization Enabling Digital Twin Technology_. (currently in print as of Oct 15 2022)
+of Physical Systems" by _Venkat Nemani, Austin Bray, Adam Thelen, Chao Hu, Steve Daining_ submitted to **Structural and Multidiciplinary Optimization** (SMO) special issue on _Advanced Optimization Enabling Digital Twin Technology_. (accepted, currently in print as of Oct 15 2022)
 
 We use two publicly available datasets
  - XJTU-SY bearing run-to-failure dataset 
